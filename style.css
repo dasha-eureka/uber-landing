@@ -1,0 +1,661 @@
+.header {
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 25%);
+    z-index: 10;
+    background-color: white;
+}
+
+.header-row {
+    max-width: 980px;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.row.header-row {
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    margin-top: 30px;
+   
+}
+
+.button {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    color: black;
+    border-radius: 4px;
+    height: 40px;
+    width: 78px;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.blank {
+    background-color: white;
+    height: 72px;
+    width: 100%;
+}
+
+.center-xs {
+    max-width: 980px;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.row.center-xs {
+    margin: 0 auto;
+}
+
+.searchbar {
+    margin-top: 56px;
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    max-width: 980px;
+    height: 24px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: #757575;
+    border-bottom-width: 1px;
+    opacity: 0.5;
+}
+
+input::placeholder {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    color: #757575;
+    font-size: 16px; 
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    width: 100%;
+}
+
+.start-xs {
+    max-width: 980px;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.row.start-xs {
+    margin: 0 auto;
+}
+
+.restaurants {
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    height: 34px;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 22px;
+    color: #1D1D1D;
+    font-weight: normal;
+    margin: 0;
+}
+
+.rest-pics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    margin-bottom: 100px;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+}
+
+.rest-name {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    color: #1D1D1D;
+}
+
+.type-food, .delivery {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.type-food {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+.delivery {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    color: #1D1D1D;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #262626;
+    max-width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-footer {
+    margin-top: 56px;
+    height: 20px;
+    width: 192px;
+    margin-bottom: 40px;
+}
+
+hr {
+    color: white;
+    opacity: 0.4;
+    margin-top: 0;
+    margin-bottom: 39px;
+}
+
+.language {
+    background-color: #3B3B3B;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    color: white;
+    height: 40px;
+    width: 176px;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.language:hover {
+    background-color: #3A3737;
+}
+
+.language span {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-content p {
+    position: relative;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 17px;
+    margin-top: 32px;
+
+}
+
+.socials {
+    gap: 12px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.hashtag {
+    color: #49A144;
+}
+
+.socials a {
+    cursor: pointer;
+}
+
+.column-two {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.column-three {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+
+.column-two, .column-three {
+    gap: 23px;
+}
+
+.hr-two {
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hr-three {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.policy {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 11px;
+    color: white;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.up {
+    border: none;
+    background-color: #59BD5A;
+    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.pushkin {
+    height: 364px;
+    background: url(images/photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.name {
+    background-color: white;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    height: 204px;
+    width: 389px;
+    margin-top: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0,0, 0.25);
+
+}
+
+.pushkin h1 {
+    padding-top: 38px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.not-name {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.price {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 13px;
+    color: #626262;
+    margin-left: 38px;
+}
+
+.dev-time {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: #262626;
+    border-radius: 16px;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.pushkin-menu {
+    border-bottom:1px rgba(117, 117, 117, 20%) solid;
+    
+}
+
+.food-list {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
+
+.food-list a {
+    color: #626262;
+}
+
+.food-list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: nowrap;
+    padding-top: 32px;
+    padding-left: 0;
+    margin: 0;
+    gap: 40px;
+    padding-bottom: 32px;
+}
+
+.food-list li {
+    white-space: nowrap;
+}
+
+.snacks {
+    color: #327430;
+}
+
+.starters h2 {
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 56px;
+    margin-bottom: 32px;
+    padding-left: 8px;
+    width: 100%;
+}
+
+.short-line {
+    color: #757575;
+    width: 50px;
+    size: 1px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.food {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    row-gap: 40px;
+    padding-bottom: 80px;
+}
+
+.food a {
+    color: #1d1d1d;
+}
+
+.herring {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+.food-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: "Roboto", "Helvetica Nue", sans-serif;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.food-name {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ingredients {
+    font-size: 13px;
+    color: #626262;
+    margin-bottom: 58px;
+    margin-top: 4px;
+    line-height: 21px;
+}
+
+.food-price {
+    font-size: 15px;
+    margin-bottom: 16px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.food-photo img {
+    height: 160px;
+    width: 100%;
+}
+
+.pickles {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+.mushrooms {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+.fat {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+.salmon {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+.tongue {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px rgba(117, 117, 117, 20%) solid;
+}
+
+@media (max-width: 992px) {
+
+    .food {
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width: 752px) {
+    
+    .basket {
+        display: none;
+    }
+    
+    .apps {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    .hr-two {
+        margin-bottom: 24px;
+    }
+
+    .hr-three {
+        margin-top: 24px;
+    }
+
+    .policy {
+        row-gap: 24px;
+    }
+    .column-two, .column-three {
+        padding-top: 23px;
+    }
+
+    .up {
+        height: 64px;
+        width: 64px;
+    }
+
+    .pushkin {
+        height: 255px;
+    }
+
+    .name h1 {
+        font-size: 24px;
+    }
+
+    .not-name {
+        flex-direction: column;
+        padding-top: 40px;
+        row-gap: 16px;
+    }
+    
+    .price {
+        margin-left: 0 !important;
+    }
+
+    .dev-time {
+        margin-right: 0 !important;
+    }
+
+    .starters h2 {
+        text-align: center;
+        margin-top: 112px;
+        padding-left: 0 !important;
+        margin-bottom: 12px;
+    }
+
+    .food {
+        padding-bottom: 40px;
+        row-gap: 16px;
+    }
+
+    .food-text {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .food-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+    .ingredients {
+        margin-bottom: 16px;
+    }
+
+    .food-photo img {
+        height: 102px;
+        width: 102px;
+    }
+
+    .herring {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .pickles {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .mushrooms {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .fat {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .salmon {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .tongue {
+        height: 102px;
+        border-bottom: 1px rgba(117, 117, 117, 20%) solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+
+}
+
